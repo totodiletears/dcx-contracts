@@ -73,4 +73,8 @@ contract Hero is ERC721Enumerable, Ownable {
     function setBaseURI(string memory _newBaseURI) public onlyOwner {
         baseURI = _newBaseURI;
     }
+
+    function setBaseExt(string memory _newBaseExt) public onlyOwner {
+        baseExt = _newBaseExt;
+    }
 }

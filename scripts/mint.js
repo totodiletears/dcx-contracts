@@ -10,7 +10,6 @@ async function main() {
   const supply = await hero.totalSupply();
 
   console.log("Hero minted");
-  console.log("Total supply: ", Number(supply));
 }
 
 main()
